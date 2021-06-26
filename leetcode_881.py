@@ -9,7 +9,7 @@ class Solution:
         i = 0
         j = len(people) - 1
         res = 0
-        while i < = j:
+        while i <= j:
             if people[i] + people[j] <= limit:
                 i = i + 1
             j = j -  1
